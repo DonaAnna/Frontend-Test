@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Even or Odd</title>
+        <link rel="stylesheet" href="webpagestyles.css">
+    </head>
+    <script>
+        function check(){
+           num = parseInt( document.getElementById("num").value)
+           temp = document.getElementById("hide");
+           temp.style.display = "block";
+           if(num)
+        {
+           if(num%2==0)
+            document.getElementById("rslt").innerHTML="Even";
+           else
+            document.getElementById("rslt").innerHTML="Odd";
+        }
+    }
+    </script>
+    <body>
+        <h1 >Check Even or Odd</h1>
+            <label>Enter a number to check even or odd</label> <br><br>
+            <input type="number" id="num" placeholder="Please enter a number">
+            <button class="bttn" onclick="check()">Check</button>
+            <p id="hide" class="hidepara">Entered number is <span id="rslt"></span></p>
+
+    </body>
+</html>

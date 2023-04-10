@@ -1,0 +1,27 @@
+.heading{
+    text-align: center;
+}
+.picture{
+    height: 500px;
+    width: 500px;
+    display: block;
+   margin: 0 auto;
+    border: 5px solid #000000;
+}
+.interests{
+    background-color: rgb(62, 162, 38);
+}
+.linkedin{
+    color: rgb(224, 224, 15);
+    text-decoration: none;
+    background-color: rgb(243, 0, 0);
+}
+a:hover{
+      color: black;  
+}
+.bttn{
+    background-color: crimson;
+}
+.hidepara{
+    display: none;
+}
